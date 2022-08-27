@@ -1,66 +1,56 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" contect="width=device_width,inital-scale=1.0">
-     <title>New Tab</title>
-	 <link rel="icon" type="image/icon" href="img/google-icon.png">
-	 <style>
-	  body{
-	    background-color:#00ffff;
-		}
-	      h1 {
-		    color:#777;
-			text-align:center;
-			}
-	  #head-a {
-	       color:#a52a2a;
-		   text-align:center;
-		   }
-	   .head-b a{
-	       text-decoration:none;
-		   float:right;
-	       font_size:16px;
-	       padding:20px 30px;
-		   }
-		 .head-b{
-		   overflow:hidden;
-		  background-color:#696969;
-		  }
-		   a:link{
-		     color:#00ffff;
-			 }
-		   a:visited {
-            color:#0000ff;
-			}
-		   a:hover {
-            color:#FF00FF;
-            }
-		   a:active {
-             color:#0000FF;
-             }
-		   p::first-letter{
-		      color:#696969;
-			  font-size: xx-large;
-              }			  
-
- 
-	 </style>	 
-	 
+   <title>New Web Page</title>
+   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<h1>COMMENT</h1>
-<h2 id="head-a">Formatting</h2>
-<header class="head-b">
-<a href="https://www.w3schools.com/tags/ref_colornames.asp">Home</a>
-<a href="https://github.com/Mathuravanan107/commit">About</a>
-
-</header>
-  <p>This module is mainly based on admin. System will check the admin user name 
-and password for authentication. After the verification for authorization the admin 
-can be able to precede the process. All works are done under his control.</p>
-
-   
-	
-</body>
-</html>	
-
+     <body>
+	      <div class="header">
+               <div class="icon">
+	              <h1 class="logo">Vani Studio</h1>
+                  <div class="manu">
+                      <ul>
+                         <li><a href="#">Place</a></li>
+                         <li><a href="#">About</a></li>
+                         <li><a href="#">Service</a></li>
+                         <li><a href="#">Contact</a></li>
+                       </ul>
+			       </div>
+				   <div class="dropdown">
+				        <button class="dropbtn">Account</button>
+				        <div class="dropdown-content">
+				           <a href="#">Log in</a>
+				           <a href="#">Sing in</a>
+				           <a href="#">Log out</a>
+				        </div>
+					</div>
+               </div>
+		  </div>
+		       <img src="img/img.jpg" width="1333px" height="600px">
+		    <div class="form">
+		           <h2>Book My Shoot</h2>
+	                <select name="city" id="city">
+	            <option value="" name="">select your city</option>
+	            <option value="Tenkasi" name="Tenkasi">Tenkasi</option>
+	            <option value="Thirunelveli" name="Thirunelveli">Thirunelveli</option>
+	            <option value="Thoothukudi" name="Thoothukudi">Thoothukudi</option>
+	            <option value="Nagercoil" name="Nagercoil">Nagercoil</option>
+	            <option value="Chennai" name="Chennai">Chennai</option>
+	            <option value="Madurai" name="Madurai">Madurai</option>
+	            <option value="thirchirapali" name="thirchirapali">thirchirapali</option>
+				<option value="Others" name="Others">Others</option>
+	            </select>
+			  <select name="Funtion" id="Funtion">
+				<option value="" name="">Funtion</option>
+				<option value="Tenkasi" name="Tenkasi">Wedding</option>
+				<option value="Tenkasi" name="Tenkasi">Babies & kids</option>
+				<option value="Tenkasi" name="Tenkasi">Birthday</option>
+				<option value="Tenkasi" name="Tenkasi">Corporate Events</option>
+				<option value="Others" name="Others">Others</option>
+				  </select>
+				<button class="cn"><a href="#">search</a></button>
+			 
+		    </div>
+		  
+     </body>
+</html>
